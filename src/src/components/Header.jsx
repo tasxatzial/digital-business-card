@@ -5,11 +5,14 @@ export default function Header() {
   return (
     <header>
       <img src={facePhoto} alt="face photo of Laura Smith" />
-      <h2>Laura Smith</h2>
-      <h3>Frontend Developer</h3>
+      <h2>Laura Smith
+        <span>Frontend Developer</span>
+      </h2>
       <p>laurasmith.website</p>
-      <button>Email</button>
-      <button>LinkedIn</button>
+      <div>
+        <button>Email</button>
+        <button>LinkedIn</button>
+      </div>
     </header>
   )
 }
