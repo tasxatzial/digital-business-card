@@ -20,7 +20,14 @@ body {
 }
 
 .card-btn {
+  cursor: pointer;
   font-size: 1.35rem;
+}
+
+.card-linkedin-btn {
+  background-color: #297FE5;
+  color: white;
+  text-decoration: none;
 }
 
 .card-section-title {
