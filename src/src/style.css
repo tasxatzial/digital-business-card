@@ -1,0 +1,29 @@
+body {
+  color: #4A4E74;
+  font-family: "Inter", sans-serif;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-title > .card-subtitle {
+  color: #F47D27;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.card-title,
+.card-section-title {
+  color: #2B283A;
+}
+
+.card-btn {
+  font-size: 1.35rem;
+}
+
+.card-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

@@ -5,13 +5,13 @@ export default function Header() {
   return (
     <header>
       <img src={facePhoto} alt="face photo of Laura Smith" />
-      <h2>Laura Smith
-        <span>Frontend Developer</span>
+      <h2 className="card-title">Laura Smith
+        <span className="card-subtitle">Frontend Developer</span>
       </h2>
       <p>laurasmith.website</p>
       <div>
-        <button>Email</button>
-        <button>LinkedIn</button>
+        <button className="card-btn card-email-btn">Email</button>
+        <button className="card-btn card-linkedin-btn">LinkedIn</button>
       </div>
     </header>
   )
