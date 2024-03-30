@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #4A4E74;
   font-family: "Inter", sans-serif;
@@ -19,15 +23,39 @@ body {
   color: #2B283A;
 }
 
+.card-btns-container {
+  display: flex;
+  gap: 1.6rem;
+}
+
 .card-btn {
+  align-items: center;
+  border: 0.1em solid #D1D5DB;
+  border-radius: 0.4em;
   cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
   font-size: 1.35rem;
+  gap: 0.65em;
+  justify-content: center;
+  padding: 0.5em 0;
+  width: 8.2em;
+}
+
+.card-btn > svg {
+  height: 100%;
+  width: auto;
 }
 
 .card-linkedin-btn {
   background-color: #297FE5;
+  border: 0.07em solid #297FE5;
   color: white;
   text-decoration: none;
+}
+
+.card-email-btn {
+  background-color: white;
 }
 
 .card-section-title {

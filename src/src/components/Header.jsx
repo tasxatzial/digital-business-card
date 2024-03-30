@@ -10,7 +10,7 @@ export default function Header() {
         <span className="card-subtitle">Frontend Developer</span>
       </h2>
       <p>laurasmith.website</p>
-      <div>
+      <div className="card-btns-container">
         <button className="card-btn card-email-btn" aria-label="Email">
           <svg width="16px" height="16px">
             <use href={`${btnIcons}#mail`}></use>
