@@ -5,7 +5,7 @@ import Footer from './components/Footer.jsx';
 
 export default function App() {
   return (
-    <article>
+    <article className="card">
       <Header />
       <PersonalInfo />
       <Footer />
