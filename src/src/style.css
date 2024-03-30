@@ -96,6 +96,15 @@ svg {
   font-weight: 700;
 }
 
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .social-link-icon {
   width: 1.526rem;
 }
