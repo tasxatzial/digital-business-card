@@ -2,10 +2,43 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #23252C;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #D5D4D8;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+img,
+svg {
+  display: block;
+  font-style: italic;
+  height: auto;
+  max-width: 100%;
+}
+
 .card {
+  --border-radius: 1em;
+  background-color: #F5F5F5;
+  border-radius: var(--border-radius);
   color: #4A4E74;
   font-family: "Inter", sans-serif;
   font-size: 0.65rem;
+  width: 31em;
+}
+
+.card-face {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
 }
 
 .card-title {
@@ -41,11 +74,6 @@
   justify-content: center;
   padding: 0.5em 0;
   width: 8.2em;
-}
-
-.card-btn > svg {
-  height: 100%;
-  width: auto;
 }
 
 .card-linkedin-btn {
