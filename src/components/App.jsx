@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header.jsx';
-import PersonalInfo from './components/PersonalInfo.jsx';
-import Footer from './components/Footer.jsx';
+import Header from './Header.jsx';
+import PersonalInfo from './PersonalInfo.jsx';
+import Footer from './Footer.jsx';
 
 export default function App() {
   return (
