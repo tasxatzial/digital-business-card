@@ -76,6 +76,10 @@ svg {
   width: 8.2em;
 }
 
+.card-btn-icon {
+  width: 1rem;
+}
+
 .card-linkedin-btn {
   background-color: #297FE5;
   border: 0.07em solid #297FE5;
@@ -90,4 +94,8 @@ svg {
 .card-section-title {
   font-size: 1rem;
   font-weight: 700;
+}
+
+.social-link-icon {
+  width: 1.526rem;
 }

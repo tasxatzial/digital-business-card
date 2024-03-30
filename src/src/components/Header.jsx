@@ -12,13 +12,13 @@ export default function Header() {
       <p>laurasmith.website</p>
       <div className="card-btns-container">
         <button className="card-btn card-email-btn" aria-label="Email">
-          <svg width="16px" height="16px">
+          <svg className="card-btn-icon" width="16px" height="16px">
             <use href={`${btnIcons}#mail`}></use>
           </svg>
           <span>Email</span>
         </button>
         <a href="https://linkedin.com" className="card-btn card-linkedin-btn" aria-label="LinkedIn">
-          <svg width="16px" height="16px">
+          <svg className="card-btn-icon" width="16px" height="16px">
             <use href={`${btnIcons}#linkedin`}></use>
           </svg>
           <span>LinkedIn</span>
