@@ -12,20 +12,6 @@ body {
   align-items: center;
 }
 
-header {
-  text-align: center;
-}
-
-footer {
-  align-items: center;
-  background-color: #D5D4D8;
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-  display: flex;
-  height: 4rem;
-  justify-content: center;
-}
-
 img,
 svg {
   display: block;
@@ -46,6 +32,10 @@ svg {
   font-family: "Inter", sans-serif;
   font-size: 0.65rem;
   max-width: 31em;
+}
+
+.card-header {
+  text-align: center;
 }
 
 .card-face {
@@ -131,6 +121,16 @@ svg {
 
 .card-email-btn {
   background-color: white;
+}
+
+.card-footer {
+  align-items: center;
+  background-color: #D5D4D8;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  display: flex;
+  height: 4rem;
+  justify-content: center;
 }
 
 .card-social-links {

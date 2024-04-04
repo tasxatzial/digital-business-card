@@ -4,7 +4,7 @@ import btnIcons from '../assets/btn-icons.svg';
 
 export default function Header() {
   return (
-    <header>
+    <header className="card-header">
       <img src={facePhoto} width="317px" height="317px" className="card-face" alt="face photo of Laura Smith" />
       <div className="primary-container">
         <h2 className="card-title">Laura Smith
