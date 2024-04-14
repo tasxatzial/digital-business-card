@@ -9,9 +9,10 @@ This is the first solo project from the React basics module of the [Frontend Car
 * Responsive.
 * Accessible + screen reader friendly.
 
-Since I've had access to the Figma file, I've tried to match the design as closely as possible and not make any changes at this point.
+Since I've had access to the Figma file, I've tried to match the design as closely as possible. However, I decided to adjust some elements based on what I considered to be the best approach. Specifically:
 
-What needs to be changed in the Figma file? Font sizes — they are quite small. However, this change would make the card too big.
+* The font sizes were quite small, therefore they were scaled to 150%.
+* The contrast of the 'frontend developer' text has been increased from 2.5 to 4.5.
 
 ## Dependencies
 
