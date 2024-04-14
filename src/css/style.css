@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 150%;
+}
+
 body {
   background-color: #23252C;
   display: flex;
@@ -21,7 +25,7 @@ svg {
 }
 
 .primary-container {
-  padding-inline: 2.185rem;
+  padding-inline: 2rem;
 }
 
 .card {
@@ -31,7 +35,7 @@ svg {
   color: #4A4E74;
   font-family: "Inter", sans-serif;
   font-size: 0.65rem;
-  max-width: 31em;
+  max-width: 30em;
 }
 
 .card-header {
@@ -53,7 +57,7 @@ svg {
 }
 
 .card-title > .card-subtitle {
-  color: #F47D27;
+  color: #b95105;
   display: block;
   font-size: 0.8rem;
   font-weight: 400;
@@ -74,7 +78,7 @@ svg {
   font-size: 1rem;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 0.3125rem;
+  margin-bottom: 0.25rem;
 }
 
 .card-section-text {
