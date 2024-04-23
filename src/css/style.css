@@ -148,3 +148,15 @@ svg {
 .card-social-link-icon {
   width: 1.526rem;
 }
+
+.github-info {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  margin: 2em 1em 1em;
+  text-align: center;
+}
+
+.github-link {
+  color: white;
+}
