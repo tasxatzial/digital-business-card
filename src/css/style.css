@@ -112,6 +112,11 @@ svg {
   width: 8.2em;
 }
 
+.card-btn:focus-visible,
+.card-btn:hover {
+  outline: 2px solid black;  
+}
+
 .card-btn-icon {
   width: 1rem;
 }
