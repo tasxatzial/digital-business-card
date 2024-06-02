@@ -112,11 +112,6 @@ svg {
   width: 8.2em;
 }
 
-.card-btn:focus-visible,
-.card-btn:hover {
-  outline: 2px solid black;  
-}
-
 .card-btn-icon {
   width: 1rem;
 }
@@ -130,6 +125,13 @@ svg {
 
 .card-email-btn {
   background-color: white;
+}
+
+.card-btn:focus-visible,
+.card-btn:hover,
+.card-social-link:focus-visible,
+.card-social-link:hover {
+  outline: 2px solid black;
 }
 
 .card-footer {
@@ -150,6 +152,10 @@ svg {
   padding: 0;
 }
 
+.card-social-link {
+  display: block;
+}
+
 .card-social-link-icon {
   width: 1.526rem;
 }
@@ -164,4 +170,9 @@ svg {
 
 .github-link {
   color: white;
+}
+
+.github-link:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
 }
