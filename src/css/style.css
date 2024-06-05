@@ -132,6 +132,7 @@ svg {
 .card-social-link:focus-visible,
 .card-social-link:hover {
   outline: 2px solid black;
+  outline-offset: 1px;
 }
 
 .card-footer {
