@@ -1,4 +1,3 @@
-import React from 'react';
 import facePhoto from '../assets/face.png';
 import btnIcons from '../assets/btn-icons.svg';
 

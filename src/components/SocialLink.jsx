@@ -1,4 +1,3 @@
-import React from 'react';
 import SocialIcons from '../assets/social-icons.svg';
 
 export default function SocialLink(props) {

@@ -1,4 +1,3 @@
-import React from 'react';
 import SocialLink from './SocialLink.jsx';
 
 export default function Footer() {
