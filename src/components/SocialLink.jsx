@@ -1,4 +1,4 @@
-import SocialIcons from '../assets/social-icons.svg';
+import SocialIcons from '/assets/social-icons.svg';
 
 export default function SocialLink(props) {
   return (

@@ -1,5 +1,5 @@
-import facePhoto from '../assets/face.png';
-import btnIcons from '../assets/btn-icons.svg';
+import facePhoto from '/assets/face.png';
+import btnIcons from '/assets/btn-icons.svg';
 
 export default function Header() {
   return (
