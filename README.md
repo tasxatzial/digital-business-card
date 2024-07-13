@@ -12,7 +12,7 @@ This is a solo project from the React basics module of the [Frontend Career Path
 Since I've had access to the Figma file, I've tried to match the design as closely as possible. However, I decided to adjust some elements based on what I considered to be the best approach. Specifically:
 
 * The font sizes were quite small, therefore they were scaled to 150%.
-* The contrast of the 'frontend developer' text has been increased from 2.5 to 4.5.
+* The low contrast of the 'frontend developer' text has been fixed.
 
 ## Dependencies
 
@@ -20,7 +20,7 @@ This is a basic React project created with Vite.
 
 ## Run locally
 
-Install the required dependencies:
+Install the required packages:
 
 ```bash
 npm install
@@ -42,6 +42,12 @@ Build & serve the production version:
 
 ```bash
 npm run serve
+```
+
+Run the linter:
+
+```bash
+npm run lint
 ```
 
 ## Screenshots
