@@ -1,4 +1,5 @@
 import SocialIcons from '/assets/social-icons.svg';
+import PropTypes from 'prop-types';
 
 export default function SocialLink(props) {
   return (
@@ -8,4 +9,8 @@ export default function SocialLink(props) {
       </svg>
     </a>
   )
+}
+
+SocialLink.propTypes = {
+  name: PropTypes.string.isRequired
 }
