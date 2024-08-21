@@ -10,9 +10,6 @@ export default function App() {
         <PersonalInfo />
         <Footer />
       </article>
-      <footer>
-        <p className="github-info"><a href="https://github.com/tasxatzial/digital-business-card" className="github-link">See the project on GitHub</a></p>
-      </footer>
     </>
   )
 }
