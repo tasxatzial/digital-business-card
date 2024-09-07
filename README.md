@@ -44,12 +44,6 @@ Build & serve the production version:
 npm run serve
 ```
 
-Run the linter:
-
-```bash
-npm run lint
-```
-
 ## Screenshots
 
 See [screenshots](screenshots/).
