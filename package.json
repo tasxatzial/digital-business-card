@@ -2,7 +2,7 @@
   "name": "digital-business-card",
   "private": true,
   "version": "1.0.0",
-  "description": "Digital business card: solo project from Scrimba",
+  "description": "Digital business card",
   "type": "module",
   "scripts": {
     "dev": "vite",
